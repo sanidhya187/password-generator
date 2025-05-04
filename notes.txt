@@ -1,0 +1,20 @@
+1. Running a flask app in python
+- Create a project
+- create a app.py file
+- [optional] frontend
+- [alternative] use another name instead of app.py - we would need a custom command to run that code 'flask run' wont work here
+
+2. APIs
+- GET, POST - These are just rules or protocols to build APIs
+- ENDPOINTS - In this app we can have many endpoints with UNIQUE path (/app/genrate, etc)
+- BASE_PATH - Base path is the path where the app runs - its always a combination of host and port - syntax - http://host:port - BASE_PATH
+
+3. API ENDPOINTs - [ http://host:port/path ] 
+- genrate
+- create a password
+- get all passwords
+ 
+
+firstly we run the command in command prompt we firtly copy the path and then we can use
+ command flask run -- password.py run
+  then we can hit the apis  and postman is not wroking so we use u=curl command in the command prompt 
